@@ -11,6 +11,7 @@
 
     <body style="margin: 0; overflow: hidden;">
         <a-scene
+            vr-mode-ui="enabled: false"
             renderer="logarithmicDepthBuffer: true;"
             embedded
             loading-screen="enabled: false;"
@@ -27,7 +28,8 @@
                     look-at="[gps-camera]"
                     animation-mixer="loop: repeat"
                     gltf-model="#animated-asset"
-                    scale="0.3143270036203401 0.3143270036203401 0.3143270036203401"
+                    position="0 -1 0"
+                    scale="100 100 100"
                     gps-entity-place="latitude: 44.69384; longitude: -0.855768;"
                 ></a-entity>
                 <a-entity
